@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --main-bg: #060606;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-ExtraLight.ttf') format('ttf');
+    font-weight: extralight;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@layer utilities {
+    .bg-gradient-3-color {
+        background-image: linear-gradient(to right, #060606, #080808, #131313);
+    }
+}
